@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Invitation</title>
+    <!-- Skeleton CSS framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://images.emojiterra.com/google/android-12l/512px/1f33e.png" type="image/png">
+    <style>
+        body {
+            padding-top: 200px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            height: auto; /* Let the content dictate height */
+            margin: 0;
+            background-color: #D2B48C;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .video-container {
+            width: 100%;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>🌾 Title! 🌾</h1>
+            </div>
+            <div class="twelve columns video-container">
+                <video controls>
+                    <!-- Replace with your actual video file path -->
+                    <source src="assets/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="twelve columns" id="giscus-container">
+                <script src="https://giscus.app/client.js"
+                data-repo="halflearned/sbd"
+                data-repo-id="R_kgDONMgBUg"
+                data-category="Announcements"
+                data-category-id="DIC_kwDONMgBUs4CkbpV"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="light"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+            </script>
+            </div>
+    </div>
+
+
+
+</body>
+</html>
